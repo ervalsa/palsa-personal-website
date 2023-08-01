@@ -23,9 +23,9 @@ const mobileMenuOpen = ref(false)
             </div>
             <div class="hidden lg:flex lg:gap-x-4">
                 <RouterLink to="/" class="text-white font-poppins text-base px-4 py-2 hover:bg-smooth-grape rounded-full transition ease-in-out delay-75" active-class="bg-smooth-grape border border-1 border-gray-white">Home</RouterLink>
-                <RouterLink to="/about" class="text-white font-poppins text-base px-4 py-2 hover:bg-smooth-grape rounded-full transition ease-in-out delay-75" active-class="bg-smooth-grape border border-1 border-gray-white">About</RouterLink>
+                <!-- <RouterLink to="/about" class="text-white font-poppins text-base px-4 py-2 hover:bg-smooth-grape rounded-full transition ease-in-out delay-75" active-class="bg-smooth-grape border border-1 border-gray-white">About</RouterLink>
                 <RouterLink to="/projects" class="text-white font-poppins text-base px-4 py-2 hover:bg-smooth-grape rounded-full transition ease-in-out delay-75" active-class="bg-smooth-grape border border-1 border-gray-white">Projects</RouterLink>
-                <RouterLink to="/articles" class="text-white font-poppins text-base px-4 py-2 hover:bg-smooth-grape rounded-full transition ease-in-out delay-75" active-class="bg-smooth-grape border border-1 border-gray-white">Articles</RouterLink>
+                <RouterLink to="/articles" class="text-white font-poppins text-base px-4 py-2 hover:bg-smooth-grape rounded-full transition ease-in-out delay-75" active-class="bg-smooth-grape border border-1 border-gray-white">Articles</RouterLink> -->
             </div>
         </nav>
         <Dialog as="div" class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
@@ -45,9 +45,9 @@ const mobileMenuOpen = ref(false)
                     <div class="-my-6">
                         <div class="space-y-2 py-6 flex flex-col gap-y-4 items-center">
                             <RouterLink to="/" class="text-white w-fit font-poppins text-base px-4 py-2 rounded-full hover:bg-smooth-grape transition ease-in-out delay-75" active-class="bg-smooth-grape border border-1 border-gray-white">Home</RouterLink>
-                            <RouterLink to="/about" class="text-white w-fit font-poppins text-base px-4 py-2 rounded-full hover:bg-smooth-grape transition ease-in-out delay-75" active-class="bg-smooth-grape border border-1 border-gray-white">About</RouterLink>
+                            <!-- <RouterLink to="/about" class="text-white w-fit font-poppins text-base px-4 py-2 rounded-full hover:bg-smooth-grape transition ease-in-out delay-75" active-class="bg-smooth-grape border border-1 border-gray-white">About</RouterLink>
                             <RouterLink to="/projects" class="text-white w-fit font-poppins text-base px-4 py-2 rounded-full hover:bg-smooth-grape transition ease-in-out delay-75" active-class="bg-smooth-grape border border-1 border-gray-white">Projects</RouterLink>
-                            <RouterLink to="/articles" class="text-white w-fit font-poppins text-base px-4 py-2 rounded-full hover:bg-smooth-grape transition ease-in-out delay-75" active-class="bg-smooth-grape border border-1 border-gray-white">Articles</RouterLink>
+                            <RouterLink to="/articles" class="text-white w-fit font-poppins text-base px-4 py-2 rounded-full hover:bg-smooth-grape transition ease-in-out delay-75" active-class="bg-smooth-grape border border-1 border-gray-white">Articles</RouterLink> -->
                         </div>
                     </div>
                 </div>

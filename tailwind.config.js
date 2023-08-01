@@ -16,7 +16,8 @@ export default {
         'gray-white': '#C2C2C2',
         'smooth-yellow': '#F9E7BB',
         'smooth-pink': '#E97CBB',
-        'smooth-grape': '#3D47D9'
+        'smooth-grape': '#3D47D9',
+        'smooth-dark' : '#1E1E1E'
       }
     },
   },
